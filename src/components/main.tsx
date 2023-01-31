@@ -36,6 +36,7 @@ export function Main() {
                         </Button>
                         <Button
                             fontSize={{lg:'22px', md: '22px', sm:'22px', base: '18px'}}
+                            w={'250px'}
                             borderRadius={'50px'}
                             variant={'outline'}
                             bg={'transparent'}
