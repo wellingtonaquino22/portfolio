@@ -16,7 +16,7 @@ export default function Headc() {
                 w='full'
                 justifyContent={'center'}
             >
-                <HStack p={'50'} fontSize={{lg: '3xl', md: '3xl', sm: '3xl', base: '20px'}} fontFamily={'montserrat'} justifyContent={'space-around'} flexWrap={'wrap'} spacing={'10'}>
+               <HStack p={'50'} fontSize={{lg: '27px', md: '27px', sm: '27px', base: '20px'}} fontFamily={'montserrat'} justifyContent={'space-around'} flexWrap={'wrap'} spacing={'10'}>
                     <Box>
                     <Link as={NextLink} href='#projects' style={{ textDecoration: 'inherit' }} cursor={'pointer'} _hover={{ bg: 'gray' }} borderRadius={'10px'}>
                        Projetos

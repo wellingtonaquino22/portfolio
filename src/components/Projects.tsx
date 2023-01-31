@@ -10,7 +10,7 @@ export default function projects() {
             fontFamily={'montserrat'}
             bg={'gray.100'}
             >
-            <Flex justifyContent={'center'} fontSize={{lg:'40px', md: '40px', sm:'40px', base: '35px'}}>
+            <Flex justifyContent={'center'} fontSize={{lg:'38px', md: '38px', sm:'38px', base: '32px'}}>
                 <Text mt={'50px'} color='blue.700'>Projetos</Text>
             </Flex>
             <Box>
@@ -24,7 +24,7 @@ export default function projects() {
                         borderRadius={'20px'}
                         boxShadow={'dark-lg'}
                     >
-                        <Link as={NextLink} href='https://github.com/wellingtonaquino22/web-api-movies-react' target={'_blank'}>
+                        <Link as={NextLink} href='https://web-api-movies-react.vercel.app/' target={'_blank'}>
                             <Image src="movie.png" h={'full'} borderRadius={'20px'} />
                         </Link>
                         <Text fontSize={{ lg: '35px', md: '35px', sm: '35px', base: '25px' }}>Movie Api</Text>
@@ -64,7 +64,7 @@ export default function projects() {
                             transitionDuration: '0.8s',
                         }} borderRadius={'20px'} boxShadow={'dark-lg'}>
                         <Text color={'gray.400'}>
-                            EM BREVE3
+                            EM BREVE
                         </Text>
                     </Box>
                 </Flex>

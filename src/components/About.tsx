@@ -4,10 +4,10 @@ export default function About() {
     return (
         <Box data-aos="fade-down">
             <Box id="about" bg={''} pb={50} pt={50} fontFamily={'monteserrat'}>
-                <Flex justifyContent={'center'} fontSize={{ lg: '50px', md: '50px', sm: '40px', base: '35px' }}>
+            <Flex justifyContent={'center'} fontSize={{ lg: '47px', md: '47px', sm: '40px', base: '35px' }}>
                     <Text>Sobre Mim</Text>
                 </Flex>
-                <HStack justifyContent={'center'} pt={30} fontSize={{ lg: '35px', md: '35px', sm: '30px', base: '20px' }}>
+                <HStack justifyContent={'center'} pt={30} fontSize={{ lg: '32px', md: '32px', sm: '30px', base: '20px' }}>
                     <Box w={'75%'}>
                         <Text
                             fontFamily={'monteserrat'}

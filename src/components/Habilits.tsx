@@ -10,7 +10,7 @@ export default function Habilits() {
                 >
                 <Box>
                     <Flex
-                    fontSize={'40px'}
+                    fontSize={'32px'}
                         justifyContent={'center'}>
                         <Text
                             color='blue.700'>
