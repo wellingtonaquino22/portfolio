@@ -19,7 +19,7 @@ const projects = [
     description:
       'Loja virtual de eletrônicos com carrinho de compras, catálogo de produtos e interface responsiva.',
     image: '/eletronic_store.png',
-    href: 'https://eletronic-store-4kor2c3kx-wellingtonaquino22.vercel.app/',
+    href: 'https://eletronic-store.vercel.app/',
     tags: ['Next.js', 'TypeScript', 'E-commerce'],
     gradient: 'from-blue-600/30 to-cyan-600/30',
   },
