@@ -62,7 +62,7 @@ export default function Header() {
           ))}
 
           <motion.a
-            href="mailto:wellington@email.com"
+            href="mailto:welaquino202122@gmail.com"
             className="ml-4 px-5 py-2.5 btn-gradient rounded-full font-dm text-sm font-semibold text-white"
             initial={{ opacity: 0, scale: 0.85 }}
             animate={{ opacity: 1, scale: 1 }}

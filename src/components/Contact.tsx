@@ -17,7 +17,7 @@ const socials = [
   },
   {
     name: 'WhatsApp',
-    href: 'https://wa.me/5581986326522',
+    href: 'https://wa.me/5581981824479',
     color: '#25D366',
     glow: 'rgba(37,211,102,0.4)',
     icon: (
