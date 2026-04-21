@@ -5,7 +5,7 @@ import { motion } from 'framer-motion'
 const stats = [
   { label: 'Anos de Experiência', value: '3+' },
   { label: 'Projetos Realizados', value: '10+' },
-  { label: 'Tecnologias', value: '8+' },
+  { label: 'Tecnologias', value: '18+' },
 ]
 
 const fadeLeft = {
@@ -51,28 +51,39 @@ export default function About() {
               <p>
                 Olá! Sou{' '}
                 <span className="text-white font-medium">Wellington Aquino</span>
-                , tenho 24 anos e moro em Vitória de Santo Antão/PE. Sou
-                desenvolvedor graduando em Sistemas da Informação.
+                , moro em Vitória de Santo Antão/PE e sou graduando em Sistemas
+                da Informação.
               </p>
               <p>
-                Trabalho com{' '}
+                Atuo com{' '}
                 <span className="text-purple-400 font-medium">
-                  Desenvolvimento Web
+                  Desenvolvimento Web & Automação
                 </span>
-                , utilizando tecnologias como JavaScript, TypeScript, ReactJs e
-                NextJs. Também tenho contato com Docker, GraphQL, Git/Github e
-                outras ferramentas modernas do ecossistema.
+                , construindo aplicações com JavaScript, TypeScript, React e
+                Next.js no front-end, além de Python e Node.js no back-end.
+                Tenho experiência com cloud{' '}
+                <span className="text-white font-medium">AWS</span>, pipelines de{' '}
+                <span className="text-white font-medium">CI/CD</span>, Docker,
+                GraphQL e Tailwind CSS.
               </p>
               <p>
-                Movido por uma forte curiosidade e vontade de{' '}
-                <span className="text-blue-400 font-medium">fazer sempre mais</span>
-                . Fique à vontade para conhecer um pouco do meu trajeto
-                profissional.
+                Também trabalho com{' '}
+                <span className="text-blue-400 font-medium">
+                  IA, RPA e Automação de processos
+                </span>
+                , desenvolvendo soluções SaaS e integrações que reduzem
+                trabalho manual e escalam operações. Movido por curiosidade e
+                vontade de{' '}
+                <span className="text-white font-medium">fazer sempre mais</span>.
               </p>
             </div>
 
             <div className="flex flex-wrap gap-3 mt-10">
-              {['JavaScript', 'TypeScript', 'React', 'Next.js', 'Docker', 'GraphQL'].map(
+              {[
+                'JavaScript', 'TypeScript', 'React', 'Next.js',
+                'Python', 'AWS', 'Docker', 'CI/CD',
+                'Tailwind CSS', 'GraphQL', 'RPA', 'IA',
+              ].map(
                 (tech) => (
                   <span
                     key={tech}
