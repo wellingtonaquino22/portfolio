@@ -1,23 +1,5 @@
-import '../styles/style.css'
+// Migrated to Next.js App Router — see app/layout.tsx
 import type { AppProps } from 'next/app'
-import { ChakraProvider } from '@chakra-ui/react'
-import { useEffect, useState } from 'react';
-
 export default function App({ Component, pageProps }: AppProps) {
-
-const [showChild, setShowChild] = useState(false);
-  
-useEffect(() => {
-  setShowChild(true);
-}, []);
-
-if (!showChild) {
-  return null;
-}
-
-  return(
-    <ChakraProvider>
-    <Component {...pageProps} />
-    </ChakraProvider>
-  )
+  return <Component {...pageProps} />
 }
